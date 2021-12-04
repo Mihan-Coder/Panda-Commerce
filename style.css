@@ -1,6 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins&family=Roboto:wght@300;400;500&display=swap');
 *{
     /* 300, 400, 500 */
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-link{
     font-weight: 300;
+    
+}
+.nav-link:hover{
+    font-weight: 400;
+}
+#t{
+    font-weight: 400;
+}
+#t:hover{
+    font-weight: 900;
+}
+.active{
+    font-weight: 400;
+}
+
+.container{
+    margin-bottom: 50px;
+}
+.orange-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+#price{
+    color: #FF136F;
+}
+
+
+.carousel-item{
+    padding: 20px 20px;
+}
+.buy{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+
 }
